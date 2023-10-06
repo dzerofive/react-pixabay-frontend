@@ -1,0 +1,27 @@
+.image-list {
+        margin: .5em auto;
+        max-width: 1280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.image-frame {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        border: 1px #bbb solid;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1em;
+        justify-content: center;
+}
+.image-frame:hover {
+        box-shadow: 0 .2em .5em #00000022;
+        border-color: #ee3366;
+}
+.image-frame img {
+        object-fit: cover;
+        border-radius: .5em;
+        max-height: 300px;
+        max-width: 300px;
+}

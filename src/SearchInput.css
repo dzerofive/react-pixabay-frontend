@@ -1,0 +1,9 @@
+.search-input input {
+        flex: 1;
+        border-radius: .5em;
+        border: 1px #bbb solid; 
+        padding: .5em 1em;
+        min-width: 20em;
+        margin-bottom: .5em;
+        margin-top: 1em;
+}
